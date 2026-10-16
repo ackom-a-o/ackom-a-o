@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="274" height="36" viewBox="0 0 274 36" role="img" aria-label="ESP32 — INTRUSION SYSTEM">
+ <rect width="274" height="36" rx="5" fill="#69518e"/>
+ <path d="M5 0H84V36H5a5 5 0 0 1-5-5V5a5 5 0 0 1 5-5" fill="#263642"/>
+ <g fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing=".6" text-anchor="middle" dominant-baseline="middle">
+  <text x="42.0" y="18.5">ESP32</text>
+  <text x="179.0" y="18.5">INTRUSION SYSTEM</text>
+ </g>
+</svg>

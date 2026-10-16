@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="64" viewBox="0 0 1100 64" role="img" aria-label="Decorative teal footer">
+<defs><linearGradient id="fade"><stop stop-color="#137c78"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>
+<path d="M0 21C200 0 310 54 550 31S890 11 1100 22V64H0Z" fill="url(#fade)" opacity=".6"/>
+<path d="M0 37C210 63 350 10 600 35S940 43 1100 30V64H0Z" fill="url(#fade)" opacity=".7"/>
+</svg>

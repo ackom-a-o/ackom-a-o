@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="316" height="36" viewBox="0 0 316 36" role="img" aria-label="STM32F446 — DEVELOPMENT BOARD">
+ <rect width="316" height="36" rx="5" fill="#147d76"/>
+ <path d="M5 0H116V36H5a5 5 0 0 1-5-5V5a5 5 0 0 1 5-5" fill="#263642"/>
+ <g fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing=".6" text-anchor="middle" dominant-baseline="middle">
+  <text x="58.0" y="18.5">STM32F446</text>
+  <text x="216.0" y="18.5">DEVELOPMENT BOARD</text>
+ </g>
+</svg>
