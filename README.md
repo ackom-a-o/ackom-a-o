@@ -12,11 +12,11 @@ I’m building my skills through hands-on electronics and microcontroller projec
 
 ## Engineering snapshot
 
-| Focus | My work |
-|---|---|
-| Hardware | Schematic design, PCB layout, routing and assembly |
-| Code | C and C++ |
-| Approach | Build, troubleshoot, improve—and document the decisions |
+```yaml
+hardware: [Schematics, PCB layout, Routing, Assembly]
+code:     [C, C++]
+approach: "Build → troubleshoot → improve → document"
+```
 
 ## Tools and interfaces
 
