@@ -1,36 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
 <title id="title">Arnold Ackom Oduro — Embedded systems, PCB design and C/C++</title>
-<desc id="desc">Minimal, GitHub-native banner: name, subtitle, subtle trace and small badge; adapts to light/dark mode.</desc>
+<desc id="desc">Clean banner with a rocket, subtle MCU motifs (STM32, ESP32, Raspberry Pi) and a couple of gears; minimal, adapts to light/dark mode.</desc>
 <style>
-  /* Clean, desaturated colors that adapt to GitHub light/dark themes */
-  .name { fill: #f0f6fc; font-weight:700; }
-  .subtitle { fill: #9aa4ad; }
-  .meta { fill: #6ee7b7; opacity:0.9; }
-  .trace { stroke: #2dd4bf; stroke-opacity:0.9; }
-
-  @media (prefers-color-scheme: light) {
-    .name { fill: #0b1220; }
-    .subtitle { fill: #475569; }
-    .meta { fill: #0ea5a4; opacity:0.85; }
-    .trace { stroke: #0ea5a4; stroke-opacity:0.65; }
+  :root{
+    --name-dark:#0b1220; --subtitle-dark:#475569; --accent-dark:#0ea5a4; --muted-dark:#9aa4ad; --trace-dark:#0ea5a4;
+    --name-light:#f0f6fc; --subtitle-light:#9aa4ad; --accent-light:#6ee7b7; --muted-light:#9aa4ad; --trace-light:#2dd4bf;
   }
+  .name{fill:var(--name-light);font-weight:700}
+  .subtitle{fill:var(--subtitle-light)}
+  .accent{fill:var(--accent-light)}
+  .muted{fill:var(--muted-light)}
+  .trace{stroke:var(--trace-light);stroke-width:2.5;stroke-linecap:round}
+
+  @media (prefers-color-scheme: light){
+    .name{fill:var(--name-dark)}
+    .subtitle{fill:var(--subtitle-dark)}
+    .accent{fill:var(--accent-dark)}
+    .muted{fill:var(--muted-dark)}
+    .trace{stroke:var(--trace-dark)}
+  }
+
+  .chip{fill:none;stroke:currentColor;stroke-opacity:0.08}
+  .gear{fill:none;stroke:currentColor;stroke-opacity:0.08}
 </style>
 
-<!-- Simplified layout: no heavy decorations, minimal accent and trace -->
+<!-- Rocket at left — simplified silhouette to suggest motion but stay minimal -->
+<g transform="translate(34,60) scale(0.82)">
+  <g id="rocket" transform="translate(0,0)">
+    <path d="M40 4c-4 0-18 6-28 18-10 12-12 32-8 48 4 16 14 34 24 44s26 12 36 6c10-6 20-22 26-38 6-16 6-36-4-50-10-14-28-26-46-26z" fill="currentColor" fill-opacity="0.06"/>
+    <path d="M40 4c-4 0-18 6-28 18-10 12-12 32-8 48 4 16 14 34 24 44s26 12 36 6c10-6 20-22 26-38 6-16 6-36-4-50-10-14-28-26-46-26z" stroke="currentColor" stroke-opacity="0.09" fill="none"/>
+    <rect x="26" y="48" width="28" height="24" rx="6" class="accent" opacity="0.95"/>
+    <rect x="30" y="52" width="6" height="6" rx="1" fill="#07282a" opacity="0.12"/>
+    <rect x="38" y="52" width="6" height="6" rx="1" fill="#07282a" opacity="0.08"/>
+    <path d="M0 110c12-6 30-16 40-28" stroke="currentColor" stroke-opacity="0.06" fill="none"/>
+  </g>
+</g>
+
+<!-- Main text -->
 <g font-family="Inter, Arial, Helvetica, sans-serif">
-  <text x="52" y="120" class="name" font-size="48">Arnold Ackom Oduro</text>
-  <text x="52" y="160" class="subtitle" font-size="18">Embedded systems · PCB design · C / C++</text>
+  <text x="170" y="120" class="name" font-size="48">Arnold Ackom Oduro</text>
+  <text x="170" y="160" class="subtitle" font-size="18">Embedded systems · PCB design · C / C++</text>
 </g>
 
-<!-- Small badge at top-right: initials inside faint rounded square -->
-<g transform="translate(930,110)">
-  <rect x="0" y="0" width="60" height="60" rx="8" fill="none" stroke="currentColor" stroke-opacity="0.08"/>
-  <text x="30" y="40" text-anchor="middle" class="meta" font-size="20" font-family="Inter, Arial, Helvetica, sans-serif">AO</text>
+<!-- MCU motifs: three small, simple chip motifs (STM32, ESP32, Raspberry Pi) aligned but unobtrusive -->
+<g transform="translate(680,80)">
+  <!-- STM-like chip rectangle + label -->
+  <g transform="translate(0,0)">
+    <rect x="0" y="0" width="76" height="48" rx="6" class="chip"/>
+    <text x="38" y="30" text-anchor="middle" font-size="12" font-family="Inter, Arial" class="muted">STM32</text>
+  </g>
+  <!-- ESP32 small rounded module -->
+  <g transform="translate(92,6)">
+    <rect x="0" y="0" width="68" height="36" rx="8" class="chip"/>
+    <text x="34" y="22" text-anchor="middle" font-size="11" font-family="Inter, Arial" class="muted">ESP32</text>
+  </g>
+  <!-- Raspberry Pi single-board hint (small square with a circle) -->
+  <g transform="translate(170,0)">
+    <rect x="0" y="0" width="56" height="46" rx="6" class="chip"/>
+    <circle cx="28" cy="22" r="6" class="muted"/>
+    <text x="28" y="42" text-anchor="middle" font-size="10" font-family="Inter, Arial" class="muted">RPI</text>
+  </g>
 </g>
 
-<!-- Minimal trace for subtle motion; low-contrast, slow animation -->
-<path d="M52 240h360l18-18h240" fill="none" class="trace" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="64 360">
-  <animate attributeName="stroke-dashoffset" values="420;0" dur="9s" repeatCount="indefinite"/>
+<!-- Two small gears on the right, subtle strokes -->
+<g transform="translate(980,40) scale(0.9)">
+  <!-- large gear -->
+  <g class="gear" stroke-width="1.5">
+    <circle cx="0" cy="0" r="18"/>
+    <path d="M0-26v6M0 26v-6M26 0h-6M-26 0h6M18-18l-4 4M-18 18l4-4M18 18l-4-4M-18-18l4 4"/>
+  </g>
+  <!-- small gear -->
+  <g transform="translate(-36,30)" class="gear" stroke-width="1.3">
+    <circle cx="0" cy="0" r="12"/>
+    <path d="M0-16v4M0 16v-4M16 0h-4M-16 0h4"/>
+  </g>
+</g>
+
+<!-- Subtle motion trace under text -->
+<path d="M170 240h360l18-18h200" fill="none" class="trace" stroke-dasharray="64 360">
+  <animate attributeName="stroke-dashoffset" values="420;0" dur="10s" repeatCount="indefinite"/>
 </path>
 
 </svg>
