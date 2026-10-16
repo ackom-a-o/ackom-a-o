@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
 <title id="title">Arnold Ackom Oduro — Embedded systems, PCB design and C/C++</title>
-<desc id="desc">Clean banner with a rocket, subtle MCU motifs (STM32, ESP32, Raspberry Pi) and a couple of gears; minimal, adapts to light/dark mode.</desc>
+<desc id="desc">Clean banner with a rocket, subtle MCU motifs (STM32, ESP32, Raspberry Pi), gears and subtle stars; rocket has a gentle motion. Colors adapt to light/dark mode.</desc>
 <style>
   :root{
     --name-dark:#0b1220; --subtitle-dark:#475569; --accent-dark:#0ea5a4; --muted-dark:#9aa4ad; --trace-dark:#0ea5a4;
     --name-light:#f0f6fc; --subtitle-light:#9aa4ad; --accent-light:#6ee7b7; --muted-light:#9aa4ad; --trace-light:#2dd4bf;
+    --star-light: rgba(255,255,255,0.9); --star-dark: rgba(255,255,255,0.85);
   }
   .name{fill:var(--name-light);font-weight:700}
   .subtitle{fill:var(--subtitle-light)}
@@ -18,14 +19,44 @@
     .accent{fill:var(--accent-dark)}
     .muted{fill:var(--muted-dark)}
     .trace{stroke:var(--trace-dark)}
+    .star{fill:var(--name-dark); opacity:0.92}
   }
 
   .chip{fill:none;stroke:currentColor;stroke-opacity:0.08}
   .gear{fill:none;stroke:currentColor;stroke-opacity:0.08}
+  .star{fill:var(--star-light); opacity:0.85}
 </style>
 
-<!-- Rocket at left — simplified silhouette to suggest motion but stay minimal -->
-<g transform="translate(34,60) scale(0.82)">
+<!-- Stars: sparse and subtle, with slow twinkle -->
+<g id="stars">
+  <circle class="star" cx="120" cy="36" r="1.6">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="star" cx="200" cy="28" r="1.2">
+    <animate attributeName="opacity" values="0.5;0.95;0.5" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="star" cx="280" cy="48" r="1.4">
+    <animate attributeName="opacity" values="0.55;0.98;0.55" dur="7s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="star" cx="420" cy="22" r="1.1">
+    <animate attributeName="opacity" values="0.5;0.95;0.5" dur="9s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="star" cx="520" cy="36" r="1.2">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="7.5s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="star" cx="720" cy="18" r="1.3">
+    <animate attributeName="opacity" values="0.5;0.95;0.5" dur="8.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="star" cx="860" cy="42" r="1.2">
+    <animate attributeName="opacity" values="0.55;0.98;0.55" dur="6.8s" begin="0.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="star" cx="980" cy="30" r="1.0">
+    <animate attributeName="opacity" values="0.5;0.95;0.5" dur="9s" begin="0.2s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- Rocket: wrapped so we can animate its position gently -->
+<g id="rocket-wrap" transform="translate(34,60) scale(0.82)">
   <g id="rocket" transform="translate(0,0)">
     <path d="M40 4c-4 0-18 6-28 18-10 12-12 32-8 48 4 16 14 34 24 44s26 12 36 6c10-6 20-22 26-38 6-16 6-36-4-50-10-14-28-26-46-26z" fill="currentColor" fill-opacity="0.06"/>
     <path d="M40 4c-4 0-18 6-28 18-10 12-12 32-8 48 4 16 14 34 24 44s26 12 36 6c10-6 20-22 26-38 6-16 6-36-4-50-10-14-28-26-46-26z" stroke="currentColor" stroke-opacity="0.09" fill="none"/>
@@ -34,6 +65,9 @@
     <rect x="38" y="52" width="6" height="6" rx="1" fill="#07282a" opacity="0.08"/>
     <path d="M0 110c12-6 30-16 40-28" stroke="currentColor" stroke-opacity="0.06" fill="none"/>
   </g>
+  <!-- gentle bob + forward/back motion -->
+  <animateTransform attributeName="transform" type="translate" values="0 0; 8 -6; 0 0; -4 -2; 0 0" dur="10s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="rotate" values="0;3;0;-2;0" dur="12s" additive="sum" repeatCount="indefinite"/>
 </g>
 
 <!-- Main text -->
