@@ -13,9 +13,9 @@ I design and build embedded hardware, code in C/C++, and learn from each prototy
 ## Engineering snapshot
 
 ```yaml
-hardware: [Schematics, PCB layout, Routing, Assembly]
-code:     [C, C++]
-approach: "Build → troubleshoot → improve → document"
+hardware: Schematics, PCB layout, Routing, Assembly, Microcontrollers 
+code:     C, C++, Python for engineering 
+approach: Build → troubleshoot → improve → document
 ```
 
 ## Core stack
