@@ -6,24 +6,46 @@
   <linearGradient id="signal"><stop stop-color="#2dd4bf"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
   <radialGradient id="glow"><stop stop-color="#14b8a6" stop-opacity=".16"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/></radialGradient>
 </defs>
-<rect width="1100" height="300" rx="18" fill="url(#bg)"/>
-<ellipse cx="965" cy="155" rx="215" ry="170" fill="url(#glow)"/>
+
+<!-- Make background transparent so the banner blends with GitHub's page background.
+     Text and accent colors adapt to the user's color scheme where supported. -->
+<style>
+  .name { fill: #f0f6fc; }
+  .subtitle { fill: #b7c8d2; }
+  .meta { fill: #54d9c3; }
+  .tagline { fill: #81aaa9; }
+  .trace-stroke { stroke: url(#signal); }
+
+  @media (prefers-color-scheme: light) {
+    .name { fill: #0f1724; }
+    .subtitle { fill: #475569; }
+    .meta { fill: #0ea5a4; }
+    .tagline { fill: #25636a; }
+  }
+</style>
+
+<!-- Background removed (transparent). Keep subtle glow and accents which will blend with the page. -->
+<ellipse cx="965" cy="155" rx="215" ry="170" fill="url(#glow)" opacity="0.9"/>
+
 <g fill="none" stroke="#27706e" stroke-width="1.5" opacity=".45">
   <path d="M782 82h66l30 30h64M800 216h46l44-44h52M1100 64h-64l-34 34v34M1100 248h-68l-32-32v-44"/>
   <path d="M782 110h45l33 33h82M792 246h66l45-45h39M1057 0v58l-39 39M1100 212h-45l-29-29"/>
   <rect x="922" y="103" width="96" height="96" rx="12"/>
   <path d="M938 95v-12m16 12V83m16 12V83m16 12V83m16 12V83M938 207v12m16-12v12m16-12v12m16-12v12m16-12v12M914 119h-12m12 16h-12m12 16h-12m12 16h-12m12 16h-12M1026 119h12m-12 16h12m-12 16h12m-12 16h12m-12 16h12"/>
 </g>
-<rect x="938" y="119" width="64" height="64" rx="7" fill="#0d2027" stroke="#39b5a5" stroke-opacity=".55"/>
-<text x="970" y="161" text-anchor="middle" fill="#80dcd0" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700">AO</text>
+
+<rect x="938" y="119" width="64" height="64" rx="7" fill="none" stroke="#39b5a5" stroke-opacity=".55"/>
+<text x="970" y="161" text-anchor="middle" class="meta" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700">AO</text>
+
 <g font-family="Arial,Helvetica,sans-serif">
-  <text x="52" y="58" fill="#54d9c3" font-size="12" font-weight="700" letter-spacing="3">HARDWARE / CODE / CURIOSITY</text>
-  <text x="50" y="131" fill="#f0f6fc" font-size="55" font-weight="700" letter-spacing="-1.5">Arnold Ackom Oduro</text>
-  <text x="52" y="171" fill="#b7c8d2" font-size="21">Embedded systems · PCB design · C / C++</text>
-  <text x="52" y="239" fill="#81aaa9" font-size="13" letter-spacing="2.4">DESIGN  →  BUILD  →  DEBUG  →  IMPROVE</text>
+  <text x="52" y="58" class="meta" font-size="12" font-weight="700" letter-spacing="3">HARDWARE / CODE / CURIOSITY</text>
+  <text x="50" y="131" class="name" font-size="55" font-weight="700" letter-spacing="-1.5">Arnold Ackom Oduro</text>
+  <text x="52" y="171" class="subtitle" font-size="21">Embedded systems · PCB design · C / C++</text>
+  <text x="52" y="239" class="tagline" font-size="13" letter-spacing="2.4">DESIGN  →  BUILD  →  DEBUG  →  IMPROVE</text>
 </g>
+
 <path id="trace" d="M52 262h330l18-18h238" fill="none" stroke="#234c51" stroke-width="2"/>
-<path d="M52 262h330l18-18h238" fill="none" stroke="url(#signal)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="80 540">
+<path d="M52 262h330l18-18h238" class="trace-stroke" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="80 540">
   <animate attributeName="stroke-dashoffset" values="620;0" dur="6s" repeatCount="indefinite"/>
 </path>
 <circle cx="638" cy="244" r="3" fill="#50d6c2"/>
