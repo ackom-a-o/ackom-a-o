@@ -23,7 +23,7 @@ approach: Build → troubleshoot → improve → document
 <p>
   <a href="#engineering-snapshot"><img src="assets/badge-c.svg" alt="C programming" /></a>
   <a href="#engineering-snapshot"><img src="assets/badge-cpp.svg" alt="C++ programming" /></a>
-  <a href="#engineering-snapshot"><img src="assets/badge-cpp.svg" alt="C++ programming" /></a>
+  <a href="#engineering-snapshot"><img src="assets/badge-cpp.svg" alt="Python programming" /></a>
   <a href="docs/usb-type-c-charger.md"><img src="assets/badge-kicad.svg" alt="KiCad PCB design" /></a>
   <a href="docs/stm32-development-board.md"><img src="assets/badge-stm32.svg" alt="STM32 development board" /></a>
   <a href="docs/home-intrusion-system.md"><img src="assets/badge-esp32.svg" alt="ESP32 intrusion system" /></a>
