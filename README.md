@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Arnold Ackom Oduro — Embedded systems, PCB design and C/C++" />
+  <img src="assets/asteroid-run.svg" width="100%" alt="Arnold Ackom Oduro — Embedded systems, PCB design and C/C++" />
 </p>
 
 <p align="center">
