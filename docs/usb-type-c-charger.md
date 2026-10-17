@@ -14,4 +14,4 @@ The first prototype failed, which I attributed to inadequate current protection.
 
 ## Evidence status
 
-The phone-charging demonstration is my reported functional result. Original design files, photos and detailed test records are not yet included here.
+The phone-charging demonstration is my reported functional result. Original design files, photos and detailed test records are not yet included here. 
