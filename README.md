@@ -26,7 +26,7 @@ approach: Build → troubleshoot → improve → document
   <a href="#engineering-snapshot"><img src="assets/badge-python.svg" alt="Python programming" /></a>
   <a href="docs/usb-type-c-charger.md"><img src="assets/badge-kicad.svg" alt="KiCad PCB design" /></a>
   <a href="docs/stm32-development-board.md"><img src="assets/badge-stm32.svg" alt="STM32 development board" /></a>
-  <a href="docs/home-intrusion-system.md"><img src="assets/badge-esp32.svg" alt="ESP32 intrusion system" /></a>
+  <a href="docs/home-intrusion-system.md"><img src="assets/badge-arduino.svg" alt="Arduino Mega intrusion system" /></a>
 </p>
 
 **Interfaces of interest:** UART · SPI · I²C · USB · CAN
@@ -36,7 +36,7 @@ approach: Build → troubleshoot → improve → document
 <p align="center">
   <a href="docs/stm32-development-board.md"><img src="assets/work-stm32.svg" alt="STM32F446 development board — project overview" /></a>
   <a href="docs/usb-type-c-charger.md"><img src="assets/work-charger.svg" alt="USB Type-C charger — build story" /></a>
-  <a href="docs/home-intrusion-system.md"><img src="assets/work-intrusion.svg" alt="ESP32 home intrusion system — project overview" /></a>
+  <a href="docs/home-intrusion-system.md"><img src="assets/work-intrusion.svg" alt="Arduino Mega home intrusion system — group project" /></a>
 </p>
 
 <p align="center"><sub>Select a project for its build story and current status.</sub></p>
