@@ -21,7 +21,44 @@ I collaborated on building and testing the prototype, and presented the componen
 | 16×2 I²C LCD | Displays prompts and system status |
 | RGB LED and two buzzers | Provide visual status and local alarm feedback |
 
-The documented behaviour covers idle, PIN entry, access granted, alert and alarm conditions. The presentation video shows the assembled model-house prototype, keypad interaction, an illuminated LCD and changing status lights. These observations do not independently verify every reported test case.
+The presentation video shows the assembled model-house prototype, keypad interaction, an illuminated LCD and changing status lights. The diagrams below document the operating behaviour described in our group presentation. They are a functional design reference; a pin-accurate wiring schematic still requires confirmation of the final connections.
+
+## System architecture
+
+```mermaid
+flowchart LR
+    US["Entrance: HC-SR04 ultrasonic sensor"] -->|Echo pulse| MCU["Arduino Mega 2560"]
+    MCU -->|Trigger pulse| US
+    PIR["Interior: PIR motion sensor"] -->|Motion signal| MCU
+    KEY["4 × 4 matrix keypad"] <-->|Row / column scanning| MCU
+    MCU -->|I²C| LCD["16 × 2 LCD: PIN prompts and status"]
+    MCU -->|Digital outputs| BUZ["Two buzzers: alternating alarm"]
+    MCU -->|Digital outputs| RGB["RGB LED: visual status"]
+```
+
+The ultrasonic sensor monitors the entrance, while the interior PIR provides a separate intrusion trigger. The keypad accepts the PIN; the LCD, RGB LED and buzzers provide feedback.
+
+## Operating flow
+
+```mermaid
+flowchart TD
+    RESET["Reset: clear attempts; buzzers, LED and LCD off"] --> IDLE["Idle: monitor entrance and interior"]
+    IDLE --> NEAR{"Someone within 30 cm?"}
+    NEAR -->|No| IDLE
+    NEAR -->|Yes| ENTRY["Activate system; LCD prompts for PIN"]
+    ENTRY --> PIN{"PIN entered correctly?"}
+    PIN -->|Yes| RESET
+    PIN -->|No| WRONG["Increment failed attempts; LCD shows wrong entry"]
+    WRONG --> LIMIT{"Two failed attempts?"}
+    LIMIT -->|No| ENTRY
+    LIMIT -->|Yes| ALARM["Full alarm: alternate buzzers; RGB cycles red / blue / purple; LCD shows alarm"]
+    MOTION["Independent trigger: interior PIR detects motion, regardless of PIN entry"] --> ALARM
+    ALARM --> DISARM{"Correct PIN entered?"}
+    DISARM -->|Yes| RESET
+    DISARM -->|No| ALARM
+```
+
+While waiting for input, the system stays in its current state. PIR detection overrides the normal PIN-entry sequence. A correct PIN clears the active sequence and returns the system to idle. The LCD backlight is off in idle and on for PIN prompts and alarm messages.
 
 ## Firmware and original group material
 
@@ -38,10 +75,10 @@ The standalone source and report contain different firmware versions:
 | Keypad columns | Pins 9–12 | Pins 22–25 |
 | Timing | Uses blocking delays | Uses `millis()` for alarm effects, with blocking operations elsewhere |
 
-The versions must be reconciled against the physical wiring before reuse. Neither has been newly compiled or hardware-tested as part of this portfolio review. No reuse licence was found in the inspected repository, so the original code and report are linked here rather than copied.
+The versions must be reconciled against the physical wiring and presentation flow before reuse. In particular, the presentation describes an immediate PIR alarm and a full alarm after two wrong PINs; the available listings handle these triggers differently. Neither has been newly compiled or hardware-tested as part of this portfolio review. No reuse licence was found in the inspected repository, so the original code and report are linked here rather than copied.
 
 ## Scope and next step
 
-This was an educational prototype with local feedback. Remote notifications remain a possible future extension.
+This was an educational prototype with local feedback. An ESP8266 Wi-Fi module and remote notifications were proposed future improvements and were not used in the physical build.
 
 The next technical step is to confirm the final wiring and firmware version, then document repeatable tests for PIN handling, sensor triggers, alarm activation and reset.
