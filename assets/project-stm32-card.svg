@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="190" viewBox="0 0 960 190" role="img" aria-label="STM32F446 four-layer development board. First prototype preparation; hardware testing pending. Explore the design.">
+<defs><linearGradient id="surface" x2="1" y2="1"><stop stop-color="#151E2B"/><stop offset="1" stop-color="#0D141F"/></linearGradient></defs>
+<rect x="1" y="1" width="958" height="188" rx="12" fill="url(#surface)" stroke="#2D3A4C"/>
+<path d="M1 34V13A12 12 0 0 1 13 1H105" fill="none" stroke="#57E5D1" stroke-width="2"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="30" y="31" fill="#57E5D1" font-size="12" font-weight="700" letter-spacing="1.7">01 / CUSTOM HARDWARE</text>
+<text x="30" y="72" fill="#F0F6FC" font-size="29" font-weight="700">STM32F446 Development Board</text>
+<text x="30" y="101" fill="#BDCBDC" font-size="15">Four-layer platform for sensor, control and communication projects.</text>
+<text x="30" y="126" fill="#8DA9BC" font-size="13">KiCad · MCU support circuits · UART / SPI / I²C / USB / CAN</text>
+<text x="30" y="165" fill="#57E5D1" font-size="15" font-weight="700">EXPLORE THE DESIGN →</text>
+<circle cx="510" cy="160" r="3" fill="#F2B85C"/>
+<text x="522" y="165" fill="#F2B85C" font-size="12">First prototype preparation · hardware testing pending</text>
+<g transform="translate(820 91)" stroke="#57E5D1" fill="none" stroke-width="1.5">
+<rect x="-42" y="-42" width="84" height="84" rx="5" fill="#132B31"/>
+<rect x="-31" y="-31" width="62" height="62" rx="2" stroke-opacity=".35"/>
+<path d="M-42 -25H-64L-77 -38H-108 M-42 -8H-88 M-42 9H-65L-80 24H-108 M-42 26H-64 M42 -25H62L77 -40H109 M42 -8H90 M42 9H65L80 24H109 M42 26H64 M-25 -42V-60 M-8 -42V-67 M9 -42V-60 M26 -42V-67 M-25 42V60 M-8 42V67 M9 42V60 M26 42V67" stroke-opacity=".6"/>
+<circle cx="-108" cy="-38" r="3"/><circle cx="-108" cy="24" r="3"/><circle cx="109" cy="-40" r="3"/><circle cx="109" cy="24" r="3"/>
+<text x="0" y="-2" stroke="none" fill="#B2FFF0" text-anchor="middle" font-size="13" font-weight="700">STM32</text>
+<text x="0" y="15" stroke="none" fill="#73A49F" text-anchor="middle" font-size="10">F446</text>
+</g></g>
+</svg>

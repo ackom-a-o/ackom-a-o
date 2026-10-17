@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="72" viewBox="0 0 960 72" role="img" aria-label="Engineering workflow: schematic, PCB layout, assembly, test and improve">
+<g font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="13" letter-spacing="1" text-anchor="middle">
+<path d="M48 51H912" stroke="#244247" stroke-width="1" fill="none"/>
+<text x="80" y="28" fill="#A9C9CA">SCHEMATIC</text><circle cx="80" cy="51" r="4" fill="#57E5D1"/><text x="280" y="28" fill="#A9C9CA">PCB LAYOUT</text><circle cx="280" cy="51" r="4" fill="#57E5D1"/><text x="480" y="28" fill="#A9C9CA">ASSEMBLY</text><circle cx="480" cy="51" r="4" fill="#57E5D1"/><text x="680" y="28" fill="#A9C9CA">TEST</text><circle cx="680" cy="51" r="4" fill="#57E5D1"/><text x="880" y="28" fill="#A9C9CA">IMPROVE</text><circle cx="880" cy="51" r="4" fill="#57E5D1"/></g></svg>

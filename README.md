@@ -57,16 +57,13 @@ I enjoy turning ideas into schematics, PCBs and working prototypes, then figurin
 
 ## Featured work
 
-<p align="center">
-  <a href="docs/stm32-development-board.md"><img src="assets/work-stm32.svg" alt="STM32F446 development board — project overview" /></a>
-  <a href="docs/usb-type-c-charger.md"><img src="assets/work-charger.svg" alt="USB Type-C charger — build story" /></a>
-  <a href="docs/home-intrusion-system.md"><img src="assets/work-intrusion.svg" alt="Arduino Mega home intrusion system — group project" /></a>
+<p>
+  <a href="docs/stm32-development-board.md"><img src="assets/project-stm32-card.svg" width="100%" alt="STM32F446 four-layer development board — design and first prototype preparation; hardware testing pending" /></a>
 </p>
 
-<p align="center"><sub>Select a project for its build story and current status.</sub></p>
+<p>
+  <a href="docs/usb-type-c-charger.md"><img src="assets/project-charger-card.svg" width="49%" alt="USB Type-C charger — schematic, PCB etching, hand assembly and a working revised prototype" /></a>
+  <a href="docs/home-intrusion-system.md"><img src="assets/project-intrusion-card.svg" width="49%" alt="Arduino Mega home intrusion system — group build, assembly, testing and component presentation" /></a>
+</p>
 
-## What I build
-
-`Schematics` · `Multilayer PCBs` · `Sensor interfaces` · `Hand-assembled prototypes`
-
-<img src="assets/footer.svg" width="100%" alt="" />
+<img src="assets/engineering-workflow.svg" width="100%" alt="Engineering workflow: schematic, PCB layout, assembly, test and improve" />
