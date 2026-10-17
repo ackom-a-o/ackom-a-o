@@ -8,28 +8,52 @@
   <a href="https://www.linkedin.com/in/arnold-ackom-oduro-41820b33b/"><img src="assets/button-linkedin.svg" alt="Connect with Arnold on LinkedIn" /></a>
 </p>
 
-I design and build embedded hardware, code in C/C++, and learn from each prototype.
+## 👋 About me
 
-## Engineering snapshot
+I'm **Arnold Ackom Oduro**, an **embedded electronics and R&D engineer**, currently an M1 student in **Bionanotechnology and Microelectronics at JUNIA ISEN, Lille**, through the KNUST / JUNIA 3+2 programme.
 
-```yaml
-hardware: Schematics, PCB layout, Routing, Assembly, Microcontrollers 
-code:     C, C++, Python for engineering 
-approach: Build → troubleshoot → improve → document
-```
+I enjoy turning ideas into schematics, PCBs and working prototypes, then figuring out what needs to change when the first attempt doesn't work. My focus is connecting **PCB design, firmware and hands-on hardware testing**.
 
-## Core stack
+- 🌍 From **Ghana**, now based in **Lille, France**.
+- 🔧 Currently developing a **[four-layer STM32F446 board](docs/stm32-development-board.md)** for sensor, control and communication projects; hardware testing is the next stage.
+- 🎯 Seeking a **3–4-month internship from May 2027** in embedded electronics, PCB design, hardware validation or electronics R&D.
+- 🌱 Building my **C/C++ and STM32 skills**, learning **Cadence and Python**, and improving my French.
+
+## 🛠️ Core stack
+
+**Firmware & development**
 
 <p>
-  <a href="#engineering-snapshot"><img src="assets/badge-c.svg" alt="C programming" /></a>
-  <a href="#engineering-snapshot"><img src="assets/badge-cpp.svg" alt="C++ programming" /></a>
-  <a href="#engineering-snapshot"><img src="assets/badge-python.svg" alt="Python programming" /></a>
+  <a href="#-about-me"><img src="assets/badge-c.svg" alt="C programming" /></a>
+  <a href="#-about-me"><img src="assets/badge-cpp.svg" alt="C++ programming" /></a>
+  <a href="docs/stm32-development-board.md"><img src="assets/badge-cubeide.svg" alt="STM32CubeIDE" /></a>
+  <a href="#-about-me"><img src="assets/badge-python-learning.svg" alt="Python — learning" /></a>
+</p>
+
+**Hardware design & testing**
+
+<p>
   <a href="docs/usb-type-c-charger.md"><img src="assets/badge-kicad.svg" alt="KiCad PCB design" /></a>
+  <a href="#-about-me"><img src="assets/badge-cadence.svg" alt="Cadence — learning" /></a>
+  <a href="#-about-me"><img src="assets/badge-oscilloscope.svg" alt="Oscilloscope: triggering, waveform inspection and signal debugging" /></a>
+</p>
+
+**Microcontrollers**
+
+<p>
   <a href="docs/stm32-development-board.md"><img src="assets/badge-stm32.svg" alt="STM32 development board" /></a>
   <a href="docs/home-intrusion-system.md"><img src="assets/badge-arduino.svg" alt="Arduino Mega intrusion system" /></a>
 </p>
 
-**Interfaces of interest:** UART · SPI · I²C · USB · CAN
+**Interfaces & protocols**
+
+<p>
+  <a href="docs/stm32-development-board.md"><img src="assets/badge-uart.svg" alt="UART" /></a>
+  <a href="docs/stm32-development-board.md"><img src="assets/badge-spi.svg" alt="SPI" /></a>
+  <a href="docs/stm32-development-board.md"><img src="assets/badge-i2c.svg" alt="I²C" /></a>
+  <a href="docs/stm32-development-board.md"><img src="assets/badge-usb.svg" alt="USB" /></a>
+  <a href="docs/stm32-development-board.md"><img src="assets/badge-can.svg" alt="CAN" /></a>
+</p>
 
 ## Featured work
 
