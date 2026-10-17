@@ -99,9 +99,12 @@ The versions must be reconciled against the physical wiring and presentation flo
 
 ## Scope and next step
 
-This was an educational prototype with local feedback. An ESP8266 Wi-Fi module and remote notifications were proposed future improvements and were not used in the physical build.
+The current Arduino Mega prototype demonstrates local intrusion detection, PIN authentication and alarm feedback. My next goal is to improve the firmware and develop a compact custom PCB, selecting the microcontroller around the system’s interface, power and connectivity requirements.
 
-The next technical step is to confirm the final wiring and firmware version, then document repeatable tests for PIN handling, sensor triggers, alarm activation and reset.
+I plan to evaluate STM32 for local sensing and alarm control, and ESP32 as an alternative with integrated Wi-Fi. Planned improvements include configurable PIN storage, entry and exit delays, event logging, and door/window and enclosure-tamper detection. Wi-Fi notifications and monitored backup power would follow in later stages.
+
+Development will begin by reconciling the existing firmware versions and documenting repeatable tests. I will verify reliable local operation first, then add connectivity while ensuring that detection and alarms continue to work without an internet connection. Each stage will be tested before committing to the next hardware revision.
+
 
 ## Team acknowledgements
 
