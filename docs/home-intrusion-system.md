@@ -102,3 +102,18 @@ The versions must be reconciled against the physical wiring and presentation flo
 This was an educational prototype with local feedback. An ESP8266 Wi-Fi module and remote notifications were proposed future improvements and were not used in the physical build.
 
 The next technical step is to confirm the final wiring and firmware version, then document repeatable tests for PIN handling, sensor triggers, alarm activation and reset.
+
+## Team acknowledgements
+
+Thank you to my COE 381 Group 4 teammates for the shared effort that brought this prototype together:
+
+- Afia Kobi Ampem Afriyie
+- Adomako Kwadwo Addo
+- Agyemang Casper Adu-Gyamfi
+- Adi Emmanuel Nana Kwame
+- Addo Ofori Kojo Sakah Addo
+- Amoani Charles Antwi
+- Holyver Addai
+- Akwasi Assensio Agyemang
+
+Building, testing and presenting this system together was an important part of the learning experience. This project belongs to the team, and I am grateful to have contributed alongside them.
