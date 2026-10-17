@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28" role="img" aria-label="ARM Cortex-M">
+  <rect x="1" y="1" width="138" height="26" rx="5"
+        fill="#DDF3FF" stroke="#7DD3FC" stroke-width="1.5"/>
+  <text x="70" y="18" text-anchor="middle"
+        font-family="Arial,sans-serif" font-size="12"
+        font-weight="700" fill="#075985">ARM Cortex-M</text>
+</svg>
