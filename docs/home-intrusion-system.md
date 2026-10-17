@@ -10,6 +10,26 @@ A home intrusion detection prototype built as a group project for COE 381 (Micro
 
 I collaborated on building and testing the prototype, and presented the components used and their roles in the system. The firmware and report are credited to the project team, COE 381 Group 4.
 
+## Prototype photographs
+
+<table>
+  <tr>
+    <td width="44%" valign="top">
+      <a href="../assets/home-intrusion/internal-assembly.png"><img src="../assets/home-intrusion/internal-assembly.png" width="100%" alt="Inside the group prototype: Arduino Mega, breadboard, two buzzers and connections to the mounted sensors and display" /></a>
+      <br /><sub>Internal assembly: controller, breadboard and wiring.</sub>
+      <br /><br />
+      <a href="../assets/home-intrusion/pin-entry-closeup.png"><img src="../assets/home-intrusion/pin-entry-closeup.png" width="100%" alt="Front close-up showing the keypad, ultrasonic sensor, illuminated status LED and LCD reading Enter PIN" /></a>
+      <br /><sub>Front interface with the LCD prompting for a PIN.</sub>
+    </td>
+    <td width="56%" valign="top">
+      <a href="../assets/home-intrusion/complete-prototype.png"><img src="../assets/home-intrusion/complete-prototype.png" width="100%" alt="Complete model-house intrusion detection prototype with the front interface and assembled enclosure" /></a>
+      <br /><sub>Complete model-house prototype built by the project team.</sub>
+    </td>
+  </tr>
+</table>
+
+Original photographs of the group build. Click a photo to view it at full size.
+
 ## Hardware and operation
 
 | Component | Role |
