@@ -27,6 +27,7 @@ I enjoy turning ideas into schematics, PCBs and working prototypes, then figurin
   <a href="#-about-me"><img src="assets/badge-c.svg" alt="C programming" /></a>
   <a href="#-about-me"><img src="assets/badge-cpp.svg" alt="C++ programming" /></a>
   <a href="docs/stm32-development-board.md"><img src="assets/badge-cubeide.svg" alt="STM32CubeIDE" /></a>
+  <a href="docs/stm32-development-board.md"><img src="assets/badge-arm-cortex.svg" alt="ARM Cortex-M" /></a>
   <a href="#-about-me"><img src="assets/badge-python-learning.svg" alt="Python — learning" /></a>
 </p>
 
