@@ -1,12 +1,8 @@
-<p align="center">
-  <img src="assets/asteroid-run.svg" width="100%" alt="Arnold Ackom Oduro — Embedded systems, PCB design and C/C++" />
-</p>
+# Hi 👋, I’m Arnold Ackom Oduro
 
-<p align="center">
-  <a href="#featured-work"><img src="assets/button-projects.svg" alt="Explore my projects" /></a>
-  <a href="docs/README.md"><img src="assets/button-notes.svg" alt="Read my build notes" /></a>
-  <a href="https://www.linkedin.com/in/arnold-ackom-oduro-41820b33b/"><img src="assets/button-linkedin.svg" alt="Connect with Arnold on LinkedIn" /></a>
-</p>
+M1 student in **Bionanotechnology and Microelectronics at JUNIA ISEN, Lille**, with interests in embedded electronics, PCB design and analog IC design.
+
+I design circuits and document the decisions, simulations and tests behind them. My current projects include a four-layer STM32 development board and a CMOS amplifier for strain-gauge bridge readout.
 
 ## 👋 About me
 
