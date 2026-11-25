@@ -6,14 +6,13 @@ I design circuits and document the decisions, simulations and tests behind them.
 
 ## 👋 About me
 
-I'm **Arnold Ackom Oduro**, an **embedded electronics and R&D engineer**, currently an M1 student in **Bionanotechnology and Microelectronics at JUNIA ISEN, Lille**, through the KNUST / JUNIA 3+2 programme.
+I enjoy taking an electronics project from a schematic to a prototype, then using measurements and debugging to improve it. My experience includes PCB design in KiCad, prototype assembly and circuit simulation in Cadence Virtuoso.
 
-I enjoy turning ideas into schematics, PCBs and working prototypes, then figuring out what needs to change when the first attempt doesn't work. My focus is connecting **PCB design, firmware and hands-on hardware testing**.
-
-- 🌍 From **Ghana**, now based in **Lille, France**.
-- 🔧 Currently developing a **[four-layer STM32F446 board](docs/stm32-development-board.md)** for sensor, control and communication projects; hardware testing is the next stage.
-- 🎯 Seeking a **3–4-month internship from May 2027** in embedded electronics, PCB design, hardware validation or electronics R&D.
-- 🌱 Building my **C/C++ and STM32 skills**, learning **Cadence and Python**, and improving my French.
+- 🌍 From **Ghana**, now based in **Lille, France**, through the **KNUST / JUNIA 3+2 programme**.
+- 🔧 Developing a **[four-layer STM32F446 board](https://github.com/ackom-a-o/stm32f446-development-board)**; hardware testing is the next stage.
+- 🔬 Completed nominal simulations of a **[CMOS strain-gauge bridge amplifier](https://github.com/ackom-a-o/cmos-strain-gauge-amplifier)**; design documentation is being added to the repository.
+- 🌱 Strengthening my **C/C++ and STM32 firmware skills**, learning **Python**, and improving my **French**.
+- 🎯 Seeking a **3–4-month internship from May 2027** in embedded electronics, PCB design, hardware validation, electronics R&D or microelectronics.
 
 ## 🛠️ Core stack
 
