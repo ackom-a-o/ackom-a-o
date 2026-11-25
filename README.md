@@ -14,42 +14,41 @@ I enjoy taking an electronics project from a schematic to a prototype, then usin
 - 🌱 Strengthening my **C/C++ and STM32 firmware skills**, learning **Python**, and improving my **French**.
 - 🎯 Seeking a **3–4-month internship from May 2027** in embedded electronics, PCB design, hardware validation, electronics R&D or microelectronics.
 
-## 🛠️ Core stack
+<h2 align="center">🛠️ Skills &amp; Tools</h2>
 
-**Firmware & development**
-
-<p>
-  <a href="#-about-me"><img src="assets/badge-c.svg" alt="C programming" /></a>
-  <a href="#-about-me"><img src="assets/badge-cpp.svg" alt="C++ programming" /></a>
-  <a href="docs/stm32-development-board.md"><img src="assets/badge-cubeide.svg" alt="STM32CubeIDE" /></a>
-  <a href="docs/stm32-development-board.md"><img src="assets/badge-arm-cortex.svg" alt="ARM Cortex-M" /></a>
-  <a href="#-about-me"><img src="assets/badge-python-learning.svg" alt="Python — learning" /></a>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=12,20,24&amp;height=3" width="100%" alt="" />
 </p>
 
-**Hardware design & testing**
+### 🔌 Circuit & PCB design
 
-<p>
-  <a href="docs/usb-type-c-charger.md"><img src="assets/badge-kicad.svg" alt="KiCad PCB design" /></a>
-  <a href="#-about-me"><img src="assets/badge-cadence.svg" alt="Cadence — learning" /></a>
-  <a href="#-about-me"><img src="assets/badge-oscilloscope.svg" alt="Oscilloscope: triggering, waveform inspection and signal debugging" /></a>
-</p>
+![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white)
+![Cadence Virtuoso](https://img.shields.io/badge/Cadence_Virtuoso-E02F44?style=for-the-badge)
+![Spectre](https://img.shields.io/badge/Spectre-8A4FD0?style=for-the-badge)
 
-**Microcontrollers**
+> ⚡ Schematics · PCB layout · Analog circuit simulation
 
-<p>
-  <a href="docs/stm32-development-board.md"><img src="assets/badge-stm32.svg" alt="STM32 development board" /></a>
-  <a href="docs/home-intrusion-system.md"><img src="assets/badge-arduino.svg" alt="Arduino Mega intrusion system" /></a>
-</p>
+### 💻 Embedded development
 
-**Interfaces & protocols**
+![C](https://img.shields.io/badge/C-5C5FC4?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-1F6FC5?style=for-the-badge&logo=cplusplus&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03A5D9?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![STM32CubeIDE](https://img.shields.io/badge/STM32CubeIDE-2E9E4F?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 
-<p>
-  <a href="docs/stm32-development-board.md"><img src="assets/badge-uart.svg" alt="UART" /></a>
-  <a href="docs/stm32-development-board.md"><img src="assets/badge-spi.svg" alt="SPI" /></a>
-  <a href="docs/stm32-development-board.md"><img src="assets/badge-i2c.svg" alt="I²C" /></a>
-  <a href="docs/stm32-development-board.md"><img src="assets/badge-usb.svg" alt="USB" /></a>
-  <a href="docs/stm32-development-board.md"><img src="assets/badge-can.svg" alt="CAN" /></a>
-</p>
+### 🔬 Prototyping & testing
+
+![PCB assembly](https://img.shields.io/badge/PCB_assembly-F0601A?style=for-the-badge&logo=circuitverse&logoColor=white)
+![Soldering](https://img.shields.io/badge/Soldering-E8A317?style=for-the-badge&logo=hackaday&logoColor=white)
+![Oscilloscope](https://img.shields.io/badge/Oscilloscope-C34FA8?style=for-the-badge)
+
+---
+
+### 🌱 Currently developing
+
+![STM32 firmware](https://img.shields.io/badge/STM32_firmware-00B4D8?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)
+![French](https://img.shields.io/badge/French-0055A4?style=for-the-badge)
 
 ## Featured work
 
