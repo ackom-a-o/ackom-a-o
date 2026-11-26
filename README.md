@@ -53,7 +53,11 @@ I enjoy taking an electronics project from a schematic to a prototype, then usin
 ## Featured work
 
 <p>
-  <a href="docs/stm32-development-board.md"><img src="assets/project-stm32-card.svg" width="100%" alt="STM32F446 four-layer development board — design and first prototype preparation; hardware testing pending" /></a>
+  <a href="https://github.com/ackom-a-o/cmos-strain-gauge-amplifier"><img src="assets/project-amplifier-card.svg" width="100%" alt="CMOS strain-gauge bridge amplifier — nominal schematic simulation complete in Cadence Virtuoso and Spectre; documentation in progress" /></a>
+</p>
+
+<p>
+  <a href="https://github.com/ackom-a-o/stm32f446-development-board"><img src="assets/project-stm32-card.svg" width="100%" alt="STM32F446 four-layer development board — design and first prototype preparation; hardware testing pending" /></a>
 </p>
 
 <p>
