@@ -50,19 +50,32 @@ I enjoy taking an electronics project from a schematic to a prototype, then usin
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)
 ![French](https://img.shields.io/badge/French-0055A4?style=for-the-badge)
 
-## Featured work
+## Selected projects
 
-<p>
-  <a href="https://github.com/ackom-a-o/cmos-strain-gauge-amplifier"><img src="assets/project-amplifier-card.svg" width="100%" alt="CMOS strain-gauge bridge amplifier — nominal schematic simulation complete in Cadence Virtuoso and Spectre; documentation in progress" /></a>
-</p>
+<table>
+  <tr>
+    <td width="55%">
+      <h3><a href="https://github.com/ackom-a-o/cmos-strain-gauge-amplifier">CMOS Strain-Gauge Amplifier</a></h3>
+      <p>CMOS readout for small differential signals from a strain-gauge bridge.</p>
+      <p>Cadence Virtuoso · Spectre<br />Nominal simulation complete</p>
+    </td>
+    <td width="45%">
+      <a href="assets/cmos-amplifier-schematic.png"><img src="assets/cmos-amplifier-schematic.png" width="420" alt="Eight-transistor CMOS amplifier schematic with differential inputs, a bias current mirror, and a single-ended output" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="55%">
+      <h3><a href="https://github.com/ackom-a-o/stm32f446-development-board">STM32F446 Development Board</a></h3>
+      <p>Four-layer board for sensor, control, and communication projects.</p>
+      <p>KiCad · First prototype in preparation</p>
+    </td>
+    <td width="45%">
+      <a href="https://github.com/ackom-a-o/stm32f446-development-board/blob/main/docs/images/pcb-top.png"><img src="https://raw.githubusercontent.com/ackom-a-o/stm32f446-development-board/main/docs/images/pcb-top.png" width="420" alt="Top copper and silkscreen of the STM32F446 development board" /></a>
+    </td>
+  </tr>
+</table>
 
-<p>
-  <a href="https://github.com/ackom-a-o/stm32f446-development-board"><img src="assets/project-stm32-card.svg" width="100%" alt="STM32F446 four-layer development board — design and first prototype preparation; hardware testing pending" /></a>
-</p>
+### Other builds
 
-<p>
-  <a href="docs/usb-type-c-charger.md"><img src="assets/project-charger-card.svg" width="49%" alt="USB Type-C charger — schematic, PCB etching, hand assembly and a working revised prototype" /></a>
-  <a href="docs/home-intrusion-system.md"><img src="assets/project-intrusion-card.svg" width="49%" alt="Arduino Mega home intrusion system — group build, assembly, testing and component presentation" /></a>
-</p>
-
-<img src="assets/engineering-workflow.svg" width="100%" alt="Engineering workflow: schematic, PCB layout, assembly, test and improve" />
+- [USB Type-C Charger](docs/usb-type-c-charger.md)
+- [Home Intrusion System](docs/home-intrusion-system.md)
