@@ -1,6 +1,6 @@
 # Hi 👋, I’m Arnold Ackom Oduro
 
-M1 student in **Bionanotechnology and Microelectronics at JUNIA ISEN, Lille**, with interests in embedded electronics, PCB design and analog IC design.
+M1 student in **Embedded Systems and Microelectronics at JUNIA ISEN, Lille**, with interests in embedded electronics, PCB design and analog IC design.
 
 I design circuits and document the decisions, simulations and tests behind them. My current projects include a four-layer STM32 development board and a CMOS amplifier for strain-gauge bridge readout.
 
